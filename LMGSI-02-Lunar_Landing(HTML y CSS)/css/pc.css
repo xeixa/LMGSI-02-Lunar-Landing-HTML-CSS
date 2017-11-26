@@ -1,0 +1,68 @@
+body,html{height:100%;padding:0px;margin:0px;}
+
+body{background: url("../img/fondo.png"); }
+
+.cpanelbox,.shipbox,.menubox{display:inline-block;width:33%;height:100%;float:left;}
+
+.moonbox{background:url("../img/moon.png");background-repeat: no-repeat;height:10%;width:100%;position:fixed;bottom:0px;}
+
+.cpanel{display: block;border:dashed; border-color: #006C12; width: 40%;font-size: 20px; text-align: center;background-color:#00FF12;margin-top: 30px; margin-left:50px;}
+
+#ship{text-align:center;position:fixed;top:5%;width:100%;height:20%;}
+
+#ship img{height:80%;}
+
+
+
+
+/* CSS DROPDOWN MENU (Menú desplegable de opciones de juego) */
+
+.dropbtn {background-color: #333;padding: 16px;width: 100px;color:white;font-size: 20px;border: none;cursor: pointer;}
+
+.dropdown {border: outset; border-width: 5px; border-color: grey;position: absolute;top: 100px; right:50px; display:inline-block;}
+
+.dropdown-content {display: none;position: absolute; right: -5px; margin-top: 5px;background-color: #4DFA53;width: 110px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+
+.dropdown-content a {border: outset; border-width: 5px; border-color: #23CE25; color:black; text-align: center; padding: 16px;text-decoration: none;display: block;}
+
+.dropdown-content a:hover:not(.active) {background-color: #B8FFB1;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #333; }
+
+.active {background-color: #37B23B; border:inset;border-color: #23CE25}
+
+/* PAUSA/PLAY Sprites*/
+
+ #pausecontrol {
+     position: absolute;
+     right: 110px;
+      
+  }
+
+  #pausecontrol li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      position: absolute;
+      top:20px;
+      
+    
+      
+  }
+
+#pausecontrol li, #pausecontrol a {
+    height: 32px;
+    display: block;
+}
+
+#pause {left: 0px;width: 32px;background: url('../img/control-sprites.png') 0 -64px;}
+
+#pause a:hover {background: url('../img/control-sprites.png') 0 0;}
+    
+#play  {left: 50px;width: 32px;background: url('../img/control-sprites.png') -32px -64px;}
+
+#play a:hover {background: url('../img/control-sprites.png') -32px 0;}
+
+/* Añadiremos en un futuro el código JavaScript, para pausar el juego con sus respectivos sprites* /
