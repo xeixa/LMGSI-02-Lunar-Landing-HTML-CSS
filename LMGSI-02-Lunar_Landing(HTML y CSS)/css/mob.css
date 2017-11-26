@@ -4,7 +4,7 @@ body{background: url("../img/fondo.png"); }
 
 .cpanelbox,.shipbox,.menubox{display:inline-block;width:33%;height:100%;float:left;}
 
-.moonbox{background:url("../img/moon_mob.png");background-repeat: no-repeat;height:34px;width:100%;position:fixed;bottom:0px;}
+.moonbox{background:url("../img/moon_mob.png");background-repeat: no-repeat;height:34px;width:100%;position:fixed;bottom:0px;text-align: center;}
 
 .cpanel{display: block;border:dashed; border-color: #006C12; width: 60px;font-size: 10px; text-align: center;background-color:#00FF12;margin-top: 25px; margin-left:20px;}
 
