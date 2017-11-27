@@ -23,14 +23,22 @@ body{
 
 .cpanel{
     display: block;
-    border: dashed;
-    border-color: #006C12;
+    border: outset;
+    border-color: grey;
     width: 40%;
     font-size: 20px; 
     text-align: center;
-    background-color: #00FF12;
+    background: linear-gradient(white, yellow, black 70%);
     margin-top: 30px; 
     margin-left: 50px;
+}
+
+.bar{
+    width: 90%;
+    height: 20px;
+    border: outset;
+    border-color: grey;
+    margin:5px;
 }
 
 #ship{
@@ -55,6 +63,20 @@ body{
 #moon img{
     height: 100%;
 }
+
+#velbar{
+    background: linear-gradient(to right, #11FF00 , #FFF500 , #FF331F);
+}
+
+#oilbar{
+    background: linear-gradient(to right, #FF331F , #FFF500); 
+}
+
+#hightbar{
+    background: linear-gradient(to right, #34A9FF , #E8A111);
+}
+
+
 
 
 /* CSS DROPDOWN MENU (Menú desplegable de opciones de juego) */

@@ -24,14 +24,22 @@ body{
 
 .cpanel{
     display: block;
-    border: dashed;
-    border-color: #006C12;
+    border: outset;
+    border-color: grey;
     width: 60px;
     font-size: 10px;
     text-align: center;
-    background-color: #00FF12;
+    background: linear-gradient(white, yellow, black 70%);
     margin-top: 25px;
     margin-left: 20px;
+}
+
+.bar{
+    width: 80%;
+    height: 10px;
+    border: outset;
+    border-color: grey;
+    margin:2px;
 }
 
 #ship{
@@ -56,6 +64,18 @@ body{
 
 #moon img{
     height: 50%;
+}
+
+#velbar{
+    background: linear-gradient(to right, #11FF00 , #FFF500 , #FF331F);
+}
+
+#oilbar{
+    background: linear-gradient(to right, #FF331F , #FFF500); 
+}
+
+#hightbar{
+    background: linear-gradient(to right, #34A9FF , #E8A111);
 }
 
 
