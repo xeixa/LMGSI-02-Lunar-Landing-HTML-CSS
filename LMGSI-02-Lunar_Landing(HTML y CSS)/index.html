@@ -6,7 +6,7 @@
         <meta name="description" content="Lunar Landing Game PC version"/>
         <title>Lunar Landing</title>
         <link rel='stylesheet' media='screen and (min-width: 720px)' href='css/pc.css'>
-        <link rel='stylesheet' media='screen and (max-width: 720px)' href='css/mob.css'>
+        <link rel='stylesheet' media='screen and (max-width: 720px)' href='css/mob2.css'>
     </head>
    
     <body>
@@ -14,9 +14,15 @@
             <img src="img/nave.png" alt="imagen nave">
         </div>
         <div class="cpanelbox">      
-            <div class="cpanel">Velocidad<br><span id="velocidad">100</span> m/s</div>
-            <div class="cpanel">Fuel<br><span id="fuel">500</span> l</div>
-            <div class="cpanel">Altura<br><span id="altura">60</span> m</div>
+            <div class="cpanel">Velocidad<br><span id="velocidad">80</span> m/s
+                <div class="bar" id="velbar"></div>
+            </div>
+            <div class="cpanel">Fuel<br><span id="fuel">400</span> l
+                <div class="bar" id="oilbar"></div>
+            </div>
+            <div class="cpanel">Altura<br><span id="altura">50</span> m
+                <div class="bar" id="hightbar"></div>
+            </div>
         </div>
         <div class="shipbox"></div>
         <div class="menubox">
