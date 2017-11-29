@@ -9,14 +9,14 @@ A continuación detallamos los pasos en la creación estructural de la página w
 * _menubox_ (contenedor del menú desplegable con sus diferentes opciones)
 * _moonbox_ (contenedor de la imagen lunar, donde aterrizará la nave)
 
-### En la marca _<head>_ especificamos:
+### En la marca _head_ especificamos:
 * El título
 * La descripción
 * El tipo de teclado
 * La configuración del área visible dependiendo del dispositivo
 * La  dirección donde se encuentra el archivo .css(utilizamos la técnica Media Queries, para establecer una regla de selección de .css en función del ancho de la pantalla del dispositivo desde el cual estemos accediendo al archivo .html.
   
-### En la marca _<body>_ tenemos: 
+### En la marca _body_ tenemos: 
   * Los 4 bloques
   * Caja contenedora de la imagen de la nave
   
