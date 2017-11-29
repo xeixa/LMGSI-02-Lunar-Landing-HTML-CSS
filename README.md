@@ -44,8 +44,8 @@ En la marca <head> especificamos:
   -Una vez entramos a una de las opciones del menú, ésta aparece con un color más oscuro, excepto en reiniciar, ya que ésta opción no nos abre una opción estática sino de reinicio de partida(he optado por quitarle la class active).
   
   Por último, en el bloque moonbox tenemos:
-  *imagen de la luna donde aterriza la nave.
-  *esta imagen está centrada en medio de la pantalla.
+  * imagen de la luna donde aterriza la nave.
+  * esta imagen está centrada en medio de la pantalla.
   
 Como comentario de observación, destacar que he optimizado el mob.css para la pantalla en vertical. No he indagado mucho en el código necesario para distinguir de .css entre el móvil en horizontal y vertical, es por ello, que si fuese competencia de estudio me gustaría que se nos facilitase dicha información.
 
