@@ -1,49 +1,47 @@
 # LMGSI-02-Lunar-Landing-HTML-CSS
-Lunar Landing HTML y CSS
+##Lunar Landing HTML y CSS
 
 A continuación detallamos los pasos en la creación estructural de la página web, mediante archivos html.
 
-Creación de 4 bloques:
--cpanelbox  (contenedor del panel de control con los distintos paneles de visualización de parámetros)
--shipbox (contenedor de la nave y su zona de movimiento)
--menubox (contenedor del menú desplegable con sus diferentes opciones)
--moonbox (contenedor de la imagen lunar, donde aterrizará la nave)
+###Creación de 4 bloques:
+* _cpanelbox_  (contenedor del panel de control con los distintos paneles de visualización de parámetros)
+* _shipbox_ (contenedor de la nave y su zona de movimiento)
+* _menubox_ (contenedor del menú desplegable con sus diferentes opciones)
+* _moonbox_ (contenedor de la imagen lunar, donde aterrizará la nave)
 
-En la marca <head> especificamos:
--El título
--La descripción
--El tipo de teclado
--La configuración del área visible dependiendo del dispositivo
--La  dirección donde se encuentra el archivo .css(utilizamos la técnica Media Queries, para establecer una regla de selección de .css en función del ancho de la pantalla del dispositivo desde el cual estemos accediendo al archivo .html.
+###En la marca <head> especificamos:
+* El título
+* La descripción
+* El tipo de teclado
+* La configuración del área visible dependiendo del dispositivo
+* La  dirección donde se encuentra el archivo .css(utilizamos la técnica Media Queries, para establecer una regla de selección de .css en función del ancho de la pantalla del dispositivo desde el cual estemos accediendo al archivo .html.
   
-  En la marca <body> tenemos:
+###En la marca <body> tenemos: 
+  * Los 4 bloques
+  * Caja contenedora de la imagen de la nave
   
-  -los 4 bloques
-  -Caja contenedora de la imagen de la nave
+###En el bloque cpanelbox creamos:
+  * 3 cajas con clase "cpanel"
+  * Dentro de cada una de ellas tenemos un parámetro escrito y un valor el cual tiene una identificación, la cual utilizaremos posteriormente con JavaScript en función de la velocidad,fuel y altura de la nave.
+  * Cada caja también tiene otro contenedor que será una barra visual que crecerá o decrecerá en función del valor del parámetro.
+  * Cada caja(barra o caja de parámetros tiene un border outset).
+  * Cada barrá tiene un degradado horizontal de colores.
+  * Cada caja de parámetros tiene un degradado de colores
   
-  En el bloque cpanelbox creamos:
-  - 3 cajas con clase "cpanel"
-  - dentro de cada una de ellas tenemos un parámetro escrito y un valor el cual tiene una identificación, la cual utilizaremos posteriormente con JavaScript en función de la velocidad,fuel y altura de la nave.
-  -Cada caja también tiene otro contenedor que será una barra visual que crecerá o decrecerá en función del valor del parámetro.
-  -Cada caja(barra o caja de parámetros tiene un border outset).
-  -Cada barrá tiene un degradado horizontal de colores.
-  -Cada caja de parámetros tiene un degradado de colores
+###Dejamos el bloque shipbox sin nada en su interior de momento, posteriormente añadiremos contenido.
   
-  Dejamos el bloque shipbox sin nada en su interior de momento, posteriormente añadiremos contenido.
-  
-  En el bloque menubox tenemos:
-  -dos elementos pause y play los cuales son un enlace a index.html(mi idea es llegar a crear un único sprite que varie en función
+###En el bloque menubox tenemos:
+  * Dos elementos pause y play los cuales son un enlace a index.html(mi idea es llegar a crear un único sprite que varie en función
   de pause(sprite) y play(sprite) mediante JS. De momento para poder trabajar con sprites he puesto ambos con una iterracción .hover del ratón, que provoca un cambio en el color del sprites
-  - Un menú desplegable con las siguientes opciones:
-    - Reiniciar (enlace a index.html)
-    - Ayuda (enlace a help.html)
-    - Ajustes (enlace a settings.html)
-    - Creditos enlace a credits.html)
-    
-  - Visualmente el menú desplegable tiene un border outset con diferentes colores para la caja Menú como para el desplegable, tanto el      borde como el color interno.
-  -Una vez entramos a una de las opciones del menú, ésta aparece con un color más oscuro, excepto en reiniciar, ya que ésta opción no nos abre una opción estática sino de reinicio de partida(he optado por quitarle la class active).
+  * Un menú desplegable con las siguientes opciones:
+  * Reiniciar (enlace a index.html)
+  * Ayuda (enlace a help.html)
+  * Ajustes (enlace a settings.html)
+  * Creditos enlace a credits.html)
+  * Visualmente el menú desplegable tiene un border outset con diferentes colores para la caja Menú como para el desplegable, tanto el      borde como el color interno.
+  * Una vez entramos a una de las opciones del menú, ésta aparece con un color más oscuro, excepto en reiniciar, ya que ésta opción no nos abre una opción estática sino de reinicio de partida(he optado por quitarle la class active).
   
-  Por último, en el bloque moonbox tenemos:
+###Por último, en el bloque moonbox tenemos:
   * imagen de la luna donde aterriza la nave.
   * esta imagen está centrada en medio de la pantalla.
   
